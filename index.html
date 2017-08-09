@@ -1,0 +1,38 @@
+<!--
+1. It should have working controls for .addTodo 
+2. It should have working controls for .changeTodo 
+3.  It should have working controls for .deleteTodo 
+4.  It should have working controls for .toggleCompleted 
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Testing Watch and Code</title>
+   
+  </head>
+  <body>
+    <h1>Todo List 2017</h1>
+      <div>
+    <button onclick = "handlers.addTodo()">Add</button>
+          <input id= "addTodoTextInput" type="text">
+      </div>
+      <div>
+      <button onclick="handlers.toggleAll()">Toggle All</button>
+      </div>
+      <div>
+      <button onClick = "handlers.changeTodo()"> Change Todo</button>
+          <input id="changeTodoPositionInput" type="number">
+          <input id="changeTodoTextInput" type="text">
+      </div>
+      <div>
+      <button onclick ="handlers.toggleCompleted()">Toggle Completed</button>    
+      <input id='toggleCompletedPositionInput' type="number">
+          </div> 
+          <ul>
+          </ul>
+     <script type="text/javascript" src= "script.js"></script>
+  </body>
+</html>
+        
